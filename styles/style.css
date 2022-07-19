@@ -1,0 +1,46 @@
+/* Top header section styles */
+.header{
+    border-radius: 10px;
+    position: relative;
+    justify-content: center;
+    width: 900px;
+    height: 500px;
+    background-color: #161616;
+    margin-top: 20px;
+    margin-left: 5.5%;
+   
+   
+}
+.top-header{
+   
+   display: flex;
+   align-items: center;
+   margin-right: 40px;
+}
+.left-header{
+    color: white;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.left-header .header-title{
+   font-size: 50px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.left-header .header-dis{
+    text-align: justify;
+   margin-bottom: 50px;
+   
+}
+.left-header .header-button{
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+ .right-header img{
+    height: 500px;
+}

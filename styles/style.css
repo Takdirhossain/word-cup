@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins:wght@200;400;500&family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@200&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+   
+}
+
 /* Top header section styles */
 .conatiner{
     width: 900px;
@@ -50,6 +59,7 @@
 }
 /* Matches section */
 .matches{
+    
     display: flex;
     margin-top: 20px;
 }
@@ -65,11 +75,11 @@
     font-weight: bold;
     text-decoration: none;
     display: block;
-    margin: 10px 30px;
+    margin: 17px 30px;
     background-color: white;
     text-align: center;
     color: black;
-    padding: 20px;
+    padding: 15px 20px;
 
 }
 .all-menu .select-menu{
@@ -77,6 +87,7 @@
     color: white;
 }
 .mid-right{
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
@@ -96,6 +107,7 @@
 }
 .blog-info .transfer{
     margin-top: 15px;
+    padding: 5px 20px;
 }
 .blog-info .blog-heading{
     font-size: 15px;
@@ -107,5 +119,53 @@
    
 }
 .duration .comment{
-    margin-left: 30px;
+    margin-left: 40px;
 }
+.view-all{
+    display: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    text-align: center;
+}
+/* Footer section */
+footer{
+    margin-top: 30px;
+    width: 100%;
+   
+    background-color: #161616;
+    height: 200px;
+   
+}
+footer h2{
+   margin-left: 45%;
+    color: white;
+   padding: 20px;
+}
+.footer-nav{
+    margin-left: 15%;
+    margin-top: 30px;
+}
+.footer-nav a{
+    text-decoration: none;
+    
+    color: white;
+    margin-left: 20px;
+}
+.social{
+   margin-left: 45%;
+}
+.social p{
+    margin-left: 2%;
+    color: white;
+}
+.social a{
+  
+    font-size: 30px;
+   
+    color: #DD0000;
+}
+
+/* responsive for mobile */
